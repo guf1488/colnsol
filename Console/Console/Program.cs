@@ -11,6 +11,7 @@ namespace Console
         static void Main(string[] args)
         {
             привет)как дела
+            у меня супер, а у тебя песдача, кек
         }
     }
 }
