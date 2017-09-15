@@ -10,7 +10,36 @@ namespace Console
     {
         static void Main(string[] args)
         {
-         //услловие
+            //услловие
+            Circle a = new Circle(10);
+            Circle b = new Circle(20);
+            Circle c = new Circle(30);
+
+            if (a.CompareTo(b) > 0)
+            {
+                System.Console.WriteLine("a > b");
+            }
+            if (a.CompareTo(b) < 0)
+            {
+                System.Console.WriteLine("a < b");
+            }
+            if (a.CompareTo(b) == 0)
+            {
+                System.Console.WriteLine("a == b");
+            }
+
+            if (c.CompareTo(b) > 0)
+            {
+                System.Console.WriteLine("c > b");
+            }
+            if (c.CompareTo(b) < 0)
+            {
+                System.Console.WriteLine("c < b");
+            }
+            if (c.CompareTo(b) == 0)
+            {
+                System.Console.WriteLine("c == b");
+            }
         }
     }
 }
